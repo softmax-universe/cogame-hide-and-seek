@@ -16,7 +16,7 @@ import os
 import subprocess
 import sys
 
-REPO = os.environ.get("API_PUSH_REPO", "Metta-AI/cogame-hide-and-seek")
+REPO = os.environ.get("API_PUSH_REPO", "softmax-universe/cogame-hide-and-seek")
 
 
 def gh(args, payload=None):
